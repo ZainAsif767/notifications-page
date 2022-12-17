@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/ZainAsif767/notifications-page]
+- Solution URL: [Solution](https://github.com/ZainAsif767/notifications-page)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -64,8 +64,8 @@ I am still learning different new CSS styles and more JS functions.
 ## Author
 
 - Website - [Zain Asif](www.github.com/zainasif767)
-- Frontend Mentor - [@yzainasif767](https://www.frontendmentor.io/profile/ZainAsif767)
-- LinkedIn - [Zain-Asif](https://www.linkedin.com/in/zain-asif-614337233)
+- Frontend Mentor - [@zainasif767](https://www.frontendmentor.io/profile/ZainAsif767)
+- LinkedIn - [Zain Asif](https://www.linkedin.com/in/zain-asif-614337233)
 
 
 ## Acknowledgments
