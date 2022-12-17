@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+
+:root {
+    --Red: hsl(1, 90%, 64%);
+    --Blue: hsl(219, 85%, 26%);
+    --White: hsl(0, 0%, 100%);
+    --Very-light-grayish-blue: hsl(210, 60%, 98%);
+    --Light-grayish-blue-1: hsl(211, 68%, 94%);
+    --Light-grayish-blue-2: hsl(205, 33%, 90%);
+    --Grayish-blue: hsl(219, 14%, 63%);
+    --Dark-grayish-blue: hsl(219, 12%, 42%);
+    --Very-dark-blue: hsl(224, 21%, 14%);
+}
+
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: centre;
+    background-color: var(--Very-light-grayish-blue);
+
+}
+
+.container {
+    margin: auto;
+    width: 700px;
+    background-color: var(--White);
+    padding: 1.5rem 1rem;
+    border-radius: .5rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.noti_box {
+    display: flex;
+    align-items: centre;
+
+}
+
+#notifications {
+    background-color: var(--Blue);
+    margin-left: .5rem;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    color: var(--White);
+    font-weight: 800;
+    border-radius: .5rem;
+}
+
+#mark_all {
+    cursor: pointer;
+
+}
+
+#mark_all:hover {
+    color: var(--Blue);
+}
+
+p {
+    color: var(--Dark-grayish-blue);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.noti_card {
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+img {
+    width: 50px;
+}
+
+.description {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+strong {
+    color: var(--Very-dark-blue);
+    cursor: pointer;
+}
+
+strong:hover {
+    columns: var(--Blue);
+
+}
+
+.unread {
+    background-color: var(--Light-grayish-blue-1) !important;
+}
+
+.unread p:first-of-type::after {
+    content: "";
+    background-color: var(--Red);
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.message_card {
+    display: flex;
+    align-items: center;
+}
+
+.message {
+    padding: 1rem;
+    border: 1px solid var(--Light-grayish-blue-2);
+    border-radius: .3rem;
+    cursor: pointer;
+    margin: 0 0 0 5rem;
+}
+
+.message:hover {
+    background-color: var(--Very-light-grayish-blue);
+
+}
+
+.chess_img {
+    margin-left: auto;
+}
+
+@media screen and (max-width:550px) {
+    .container {
+        margin: 0;
+    }
+
+}
