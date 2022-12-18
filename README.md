@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/ZainAsif767/notifications-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click here](https://notifications-page-by-zainasif.netlify.app/)
 
 ## My process
 -Customizing HTML, CSS and JS
